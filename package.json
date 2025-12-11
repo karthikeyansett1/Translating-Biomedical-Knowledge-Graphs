@@ -1,0 +1,33 @@
+{
+  "name": "translator-pathfinder",
+  "version": "1.0.0",
+  "description": "A web application for exploring biological pathways using the Translator knowledge graph system",
+  "main": "backend.js",
+  "scripts": {
+    "start": "node backend.js",
+    "dev": "node backend.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "translator",
+    "biomedical",
+    "pathways",
+    "knowledge-graph",
+    "d3js",
+    "bioinformatics"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/translator-pathfinder.git"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
