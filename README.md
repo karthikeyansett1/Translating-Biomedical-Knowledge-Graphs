@@ -1,4 +1,4 @@
-# Translator Pathfinder
+# Translating Biomedical Knowledge Graphs
 
 A web application for exploring biological pathways and relationships between biomedical entities using the NIH NCATS Translator knowledge graph system.
 
