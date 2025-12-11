@@ -2,7 +2,7 @@
 
 A web application for exploring biological pathways and relationships between biomedical entities using the NIH NCATS Translator knowledge graph system.
 
-## 🧬 About
+## About
 
 Translator Pathfinder provides an interactive interface to visualize and explore connections between biological entities like genes, proteins, drugs, diseases, and phenotypes. The application leverages the [Translator ARS (Autonomous Relay System)](https://ars.ci.transltr.io) to query biomedical knowledge graphs and present the results as an interactive network visualization.
 
@@ -14,7 +14,7 @@ Translator Pathfinder provides an interactive interface to visualize and explore
 - **Real-time Queries**: Direct integration with Translator ARS API
 - **Responsive Design**: Clean, modern interface built with Tailwind CSS
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -45,7 +45,7 @@ Translator Pathfinder provides an interactive interface to visualize and explore
    - Open `index.html` in your web browser, or
    - Navigate to the file in your browser: `file:///path/to/translator-pathfinder/index.html`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 translator-pathfinder/
@@ -58,7 +58,7 @@ translator-pathfinder/
 └── .gitignore         # Git ignore rules
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Backend Configuration (backend.js)
 
@@ -80,7 +80,7 @@ let QUERY_END_NODE = "NCBIGene:4790";      // NFKB1
 let queryTitle = "FAM177A1 → NFKB1";
 ```
 
-## 🌐 API Endpoints
+## API Endpoints
 
 ### GET /api/query
 
@@ -109,7 +109,7 @@ Fetches and processes biological pathway data from the Translator ARS system.
 }
 ```
 
-## 🎯 Usage
+## Usage
 
 1. **Starting the Application**: Launch the backend server and open the frontend
 2. **Initial Query**: The app loads with a pre-configured pathway query (FAM177A1 → NFKB1)
@@ -119,7 +119,7 @@ Fetches and processes biological pathway data from the Translator ARS system.
    - Use the force-directed layout to explore the network structure
 4. **Navigation**: Pan and zoom the visualization to focus on areas of interest
 
-## 🔬 Biological Context
+## Biological Context
 
 This application is particularly useful for:
 
@@ -128,7 +128,7 @@ This application is particularly useful for:
 - **Biomarker Discovery**: Identifying relationships between phenotypes and molecular entities
 - **Pathway Analysis**: Understanding biological processes and their components
 
-## 🛠 Technical Details
+## Technical Details
 
 ### Frontend Technologies
 - **D3.js v7**: Interactive data visualization
@@ -145,7 +145,7 @@ This application is particularly useful for:
 - **Translator ARS**: NIH NCATS Autonomous Relay System
 - **Knowledge Graphs**: Multiple biomedical knowledge sources integrated through Translator
 
-## 📝 Development
+## Development
 
 ### Adding New Features
 
@@ -159,7 +159,7 @@ This application is particularly useful for:
 - **Frontend Logs**: Open browser developer tools (F12) and check the console
 - **Network Issues**: Verify the backend server is running on port 3000
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -167,24 +167,14 @@ This application is particularly useful for:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **NIH NCATS Translator Program**: For providing the knowledge graph infrastructure
 - **D3.js Community**: For the powerful data visualization library
 - **Biomedical Ontologies**: NCBI Gene, MONDO, ChEBI, and other standardized vocabularies
 
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/yourusername/translator-pathfinder/issues) page
-2. Create a new issue with detailed information about your problem
-3. Include browser console logs and server terminal output when reporting bugs
-
----
-
-**Made with ❤️ for the biomedical research community**
+[
