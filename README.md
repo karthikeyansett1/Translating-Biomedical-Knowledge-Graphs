@@ -159,22 +159,4 @@ This application is particularly useful for:
 - **Frontend Logs**: Open browser developer tools (F12) and check the console
 - **Network Issues**: Verify the backend server is running on port 3000
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-##  Acknowledgments
-
-- **NIH NCATS Translator Program**: For providing the knowledge graph infrastructure
-- **D3.js Community**: For the powerful data visualization library
-- **Biomedical Ontologies**: NCBI Gene, MONDO, ChEBI, and other standardized vocabularies
-
-[
